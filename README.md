@@ -28,18 +28,29 @@ It demonstrates principles of **object-oriented programming (OOP)**, **file hand
 - Text files for data persistence (no external libraries required)
 
 ## Project Structure
-|taxi-management-system/
-│── data/ # Input/output data files
-│── src/ # Source code
-│── README.md # Documentation
+<pre>
+taxi-management-system/ 
+  │── data/ 
+  │ ├── customers.txt 
+  │ ├── locations.txt 
+  │ ├── rates.txt 
+  │ ├── services.txt 
+  │ ├── bookings.txt 
+  │ │── src/ 
+  │ └── taxi_management.py 
+  │ │── README.md 
+  │── requirements.txt 
+</pre>
 
 ## Usage
+<pre>
 cd src
 python taxi_management.py ../data/customers.txt ../data/locations.txt ../data/rates.txt ../data/services.txt ../data/bookings.txt
+</pre>
 
 ## Example
 Booking a trip will generate a detailed receipt:
-
+<pre>
 Taxi Receipt
 -------------------------------
 Name: Louis
@@ -54,7 +65,8 @@ Basic Fee: 4.20
 Distance Fee: 18.75
 Discount: 1.87
 -------------------------------
-Total Cost: 22.08 AUD
+Total Cost: 22.08 AUD 
+</pre>
 
 ## Learning Outcomes
 - Applied object-oriented programming (inheritance, polymorphism, encapsulation).
@@ -62,4 +74,5 @@ Total Cost: 22.08 AUD
 - Handled file-based data persistence.
 - Implemented custom exceptions for robust error handling.
 
-
+> Originally created: May 2023 (pushed to GitHub in 2025 for portfolio purposes)
+> Academic OOP project: designed a taxi booking management system in Python, implementing inheritance, file persistence, error handling, and a CLI interface. Provided foundation for later projects in ML, ETL pipelines, and cloud-based analytics.
