@@ -39,7 +39,6 @@ taxi-management-system/
   │ │── src/ 
   │ └── taxi_management.py 
   │ │── README.md 
-  │── requirements.txt 
 </pre>
 
 ## Usage
