@@ -24,11 +24,11 @@ It demonstrates principles of **object-oriented programming (OOP)**, **file hand
   - All customer, location, rate, and booking data are stored in text files
 
 ## Tech Stack
-- Python 3.x
+- Python 3.10
 - Text files for data persistence (no external libraries required)
 
 ## Project Structure
-taxi-management-system/
+|taxi-management-system/
 │── data/ # Input/output data files
 │── src/ # Source code
 │── README.md # Documentation
